@@ -1,0 +1,88 @@
+body
+{
+    background-color: cadetblue;
+    text-align: center;
+    color: blanchedalmond;
+    width: 440px;
+}
+.logo
+{
+    position: fixed;
+    top: 30px;
+    right: 250px;
+}
+.titulo
+{
+    left: 480px;
+    width: 380px;
+    top: 175px;
+    position: relative;
+    background-color:rgba(216, 104, 104, 0.226);
+    
+
+}
+h3
+{
+    top: 14px;
+    font-size: 25px;
+    background-color:rgba(216, 104, 104, 0.226);
+}
+#formulario
+{
+    top: 120px;
+    width: 380px;
+    height: 250px;
+    position: relative;
+    left: 480px;
+    background-color:rgba(216, 104, 104, 0.226);
+}
+input.cadastro
+{
+    width: 350px;
+    position: relative;
+    top: 58px;
+    background-color:rgba(253, 125, 6, 0.507);
+}
+input.login
+{
+    background-color:rgba(253, 125, 6, 0.507);
+    width: 350px;
+    position: relative;
+}
+.login
+{
+    background-color:rgba(216, 104, 104, 0.226);
+}
+input
+{
+    border-radius: 15px;
+}
+input:checked
+{
+    border-radius: 50px;
+}
+.footer
+{
+    position: relative;
+    bottom: -930px;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 1340px;
+}
+#sexo
+{
+    position: relative;
+    top: 70px;
+}
+.botao
+{
+    position: relative;
+    top: 15px;
+    width: 190px;
+    height: 70px;
+    font-size: 25px;
+    font-family: 'Train One', cursive;
+}
+::placeholder
+{
+    text-align: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img class="logo" src="https://fontmeme.com/permalink/210319/e71908bb13092f66e573eec801092e61.png" alt="pokemon">
+        <h1 class="titulo">CADASTRO</h1>
+    </header>
+    <form action="login.php" method="post" id="formulario">
+        <input type="text" placeholder="Nome" class="cadastro" name="nome" required></br></br>
+        <input type="email" placeholder="E-mail" class="cadastro" name="e-mail" required></br></br>
+        <input type="tel" placeholder="Telefone" class="cadastro" name="telefone" required></br></br>
+       <div id="sexo">
+        <label for="sexo">Sexo</label><br />
+        <input checked="checked" type="radio" name="sexo" value="m" /> Masculino
+        <input type="radio" name="sexo" value="f" /> Feminino</br></br>
+        </br></br></br>
+        </div>
+        <div class="login">
+        <h3 >LOGIN</h3>
+        <label for="Login">Login: </label>
+        <input type="password" placeholder="Login" class="login" name="login" required></br></br>
+        <label for="Senha">Senha: </label>
+        <input type="password" placeholder="Senha" class="login" name="senha" required>
+        </br></br></br>
+        <input type="checkbox" class="check">Concordo com <a href="#">termos de uso e privacidade</a></br>
+        <input type="checkbox" class="check">Concordo com todas <a href="#">regras</a> implantada pelos ADM's
+        </div>
+        <a href="rank.php"><input type="button" value="CADASTRO" class="botao"></a>
+    </form>    
+    <footer class="footer">
+        
+    </footer>
+</body>
+</html>
